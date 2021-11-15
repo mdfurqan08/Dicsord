@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Road+Rage&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Road+Rage&family=Roboto+Mono&family=Shippori+Antique&display=swap');
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: hsl(261, 87%, 63%);
+}
+body{
+    margin: 0px;
+    /* modify background color here*/
+    background-color:#252727;
+    
+}
+p{
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Road Rage', cursive;
+    
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 25px;
+    width:400px;
+    font-family: 'Shippori Antique', sans-serif;
+    
+}
